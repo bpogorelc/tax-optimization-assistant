@@ -649,7 +649,7 @@ Please provide a comprehensive answer based on the data above:
                 results["qa_results"][f"question_{i}"] = {
                     "question": question,
                     "answer": answer,
-                    "sources": "payslip_data.json, receipt_data.json, payslip_ocr.json, receipt_ocr.json"
+                    "sources": "payslip_data.json, receipt_data.json
                 }
             
             logger.info("LLM-based question answering completed successfully")
